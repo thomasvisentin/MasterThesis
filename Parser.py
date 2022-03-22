@@ -47,10 +47,6 @@ for i in range(0, len(files)):
     if 'h-' in c:
 
         if os.path.isfile(c):
-            print(True)
-    #boston = pd.read_csv("https://archive.ics.uci.edu/ml/machine-learning-databases/housing/housing.data", sep='\s+',
-                         #names=["CRIM", "ZN", "INDUS", "CHAS", "NOX", "RM", "AGE", "DIS", "RAD", "TAX", "PRATIO", "B",
-                               # "LSTAT", "MEDV"])
             file1 = open(c, 'r')
             Lines = file1.readlines()
             for x in range(39):
